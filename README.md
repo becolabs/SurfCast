@@ -40,6 +40,10 @@ The research phase involved a methodical, iterative process:
     2.  **Swell Period:** The power of the incoming swell.
     3.  **Swell Direction:** The angle of the incoming swell.
 
+![Classification report](images/class_report.png)
+
+![XGBoost feature importance](images/xgboost_fi.png)
+
 ---
 
 ## 3. Repository Structure (End of Sprint 1)
