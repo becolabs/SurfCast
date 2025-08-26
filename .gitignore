@@ -1,0 +1,42 @@
+# Python Environments
+venv/
+/venv/
+.venv/
+env/
+/env/
+.env
+
+# Python Caches and Artifacts
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# Caches and Temporary Files
+.cache/
+# The fixes directory is temporary; its contents are merged into the main landing_zone files.
+landing_zone/fixes/
+
+# IDE and Editor Directories
+.vscode/
+.idea/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive Files (Best Practice)
+# Configuration files containing API keys or secrets should never be committed.
+config.yaml
+*.env
+
+# Note on Data and Model Files:
+# For this initial sprint, we are committing the small CSV data and the model file
+# as they are the primary deliverables of the research phase.
+# For larger-scale projects, data and large model files should be ignored.
+# Example for the future:
+# landing_zone/*.csv
+# *.pkl
